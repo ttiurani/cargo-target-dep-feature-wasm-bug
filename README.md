@@ -25,3 +25,6 @@ error: Only features sync,macros,io-util,rt,time are supported on wasm.
 
 error: could not compile `tokio` due to previous error
 ```
+
+Also if the `wasm-compatible` dependency is commented out from `top/Cargo.toml`, build succeeds,
+because tokio's `sync` is compatible with WASM.

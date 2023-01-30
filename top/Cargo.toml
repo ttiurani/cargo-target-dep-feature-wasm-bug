@@ -1,5 +1,5 @@
 [package]
-description = "Top lib that shows bug with --target=wasm32-unknown-unknown"
+description = "Lib that shows bug with --target=wasm32-unknown-unknown failing"
 license = "MIT"
 name = "top"
 version = "0.0.1"

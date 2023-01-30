@@ -1,5 +1,5 @@
 [package]
-description = "Dependency with fs feature which and does not build with --target=wasm32-unknown-unknown"
+description = "Dependency with tokio's fs feature which doesn't build with --target=wasm32-unknown-unknown"
 license = "MIT"
 name = "fs-dep"
 version = "0.0.1"
