@@ -28,3 +28,7 @@ error: could not compile `tokio` due to previous error
 
 Also if the `wasm-compatible` dependency is commented out from `top/Cargo.toml`, build succeeds,
 because tokio's `sync` is compatible with WASM.
+
+## Solution
+
+The fix is to change in `top/Cargo.toml` either `edition = "2021"` or add `resolver = "2"`.

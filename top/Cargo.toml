@@ -3,7 +3,7 @@ description = "Lib that shows bug with --target=wasm32-unknown-unknown failing"
 license = "MIT"
 name = "top"
 version = "0.0.1"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 wasm-compatible = { path = "../wasm-compatible" }
