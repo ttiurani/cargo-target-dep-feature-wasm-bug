@@ -1,0 +1,10 @@
+[package]
+description = "Top lib that shows bug with --target=wasm32-unknown-unknown"
+license = "MIT"
+name = "top"
+version = "0.0.1"
+edition = "2018"
+
+[dependencies]
+wasm-compatible = { path = "../wasm-compatible" }
+tokio = { version = "1.25.0", features = ["sync"] }

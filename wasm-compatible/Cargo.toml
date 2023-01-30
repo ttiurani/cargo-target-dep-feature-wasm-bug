@@ -1,0 +1,9 @@
+[package]
+description = "WASM-compatible lib that does build with --target=wasm32-unknown-unknown"
+license = "MIT"
+name = "wasm-compatible"
+version = "0.0.1"
+edition = "2018"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+fs-dep = { path = "../fs-dep" }
